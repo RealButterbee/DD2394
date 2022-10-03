@@ -8,6 +8,6 @@ Make a Single Sign On (SSO) integration to Google.
 
 Set up firewall rules (either proxy or local firewall) to limit network traffic to the system
 
-3. Ransomware
+3. DDoS protection
 
-Create isolated backups
+Set up firewall rules for this
