@@ -1,0 +1,10 @@
+Two-Factor Authentication Plugin Installation
+
+Step 1: Access NodeBB with an admin profile
+This is necessary in order to install the plug-ins needed for the chosen countermeasures to work.
+Step 2: Access Control Panel  → Extend → Plugins
+Access the section ‘Plugins’ to find the plugins needed, type ‘2fa’ on the search bar, once you find the ‘nodebb-plugin-2factor’ click ‘Install’, then go to the ‘Installed’ tab, find the 2FA plugin and click ‘Activate’.
+Step 3: Rebuild and Restart
+Go to the dashboard, Dashboard → Overview and click ‘Rebuild & Restart’ to ensure that the plugin you just activated works. And now the plugin is set up, all that is left to do is for the user to enable it.
+Step 4: Enable Two-Factor Authentication via Authenticator app
+Login or register in NodeBB, the ‘Two-Factor Authentication’ manager should open automatically, if it doesn’t go to Profile → ፧ → Two-Factor Authentication → Authenticator App → Enable. A QR code will pop up, scan it with Google Authenticator app or with the phone’s camera, the token will now work on your phone and will constantly generate codes. Insert the 6 digit code from the app into the website, it will ask for it twice (it might change due to the Time-based One-time Password Algorithm). Now the plugin is enabled and will be used every time a user tries to access the NodeBB site. Making it more secure!
