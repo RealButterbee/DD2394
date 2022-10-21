@@ -1,0 +1,12 @@
+Google SSO Plugin Instalation
+
+Step 1: Access NodeBB with an admin profile
+This is necessary in order to install the plug-ins needed for the chosen countermeasures to work.
+Step 2: Access Control Panel → Extend → Plugins
+Access the section ‘Plugins’ to find the plugins needed, type ‘SSO’ on the search bar, once you find the ‘nodebb-plugin-sso-google’ click ‘Install’, then go to the ‘Installed’ tab, find the SSO plugin and click ‘Activate’.
+Step 3: Rebuild and Restart
+Go to the dashboard, Dashboard → Overview and click ‘Rebuild & Restart’ to ensure that the plugin you just activated works.
+Step 4: Configure the plugin in the Google Cloud API Manager
+Access the Google plugin configuration, Plugins → Social Authentication: Google, follow the instructions and set the plugin in the Google Cloud API Manager. This in order to connect the plugin with the NodeBB site. *detailed steps can be found in the repository 
+Step 5: Make setup in NodeBB
+Go back to NodeBB, copy the ‘ClientID’ and ‘Secret’ in the Google API Manager and save the settings. Restart NodeBB once again to make the changes and now the plugin is ready to use!
