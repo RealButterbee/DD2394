@@ -1,5 +1,7 @@
 # DD2394
 
+Setup instructions for each solution can be found inside each folder!
+
 1. User Authentication
 
 Make a Single Sign On (SSO) integration to Google.
