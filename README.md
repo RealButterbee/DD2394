@@ -12,4 +12,4 @@ Set up firewall rules (either proxy or local firewall) to limit network traffic 
 
 3. Spam
 
-tbd
+Set up spam filtering services
